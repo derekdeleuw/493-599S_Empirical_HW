@@ -9,3 +9,7 @@ The file `model.py` contains an implementation of a transformer model. The file 
 ## Part 2
 
 The notebook `part_2_starter.ipynb` has code to load pretrained models, the AIME dataset, functions for evaluation and has unoptimized code for inference. We encourage you to write your own inference code to speed things up.
+
+## Part 3
+
+Analysis and Synthesis Questions Answering
