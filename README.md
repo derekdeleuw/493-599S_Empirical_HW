@@ -1,15 +1,26 @@
-# Advanced ML HW 1
+# CSE 493S/599S: Empirical Machine Learning Homework
+# Team Members: Krishna Deshpande, Derek De Leuw, Bhagyashree Wagh, Vaibhav Paranji, Will Gannon
 
-This is the starter code for CSE493S HW 1 for Spring 2026. For a complete description of the homework please see `ps.md` or `ps.pdf`. Please contact the TAs if you find any bugs in this repo. 
+# Description: This is a README.md containing the project description and instructions on how to run this project
 
-## Part 0 and 1
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  
 
-The file `model.py` contains an implementation of a transformer model. The file `part_0_1_contract.py` contains some function signatures that would make autograding less painful for the TAs. 
+# Install required dependencies and packages
+pip install -r requirements.txt
 
-## Part 2
+# Run parts 0 and 1: Training a Transformer Model to learn Modular Artihmetic and Study Grokking Phenomenon
 
-The notebook `part_2_starter.ipynb` has code to load pretrained models, the AIME dataset, functions for evaluation and has unoptimized code for inference. We encourage you to write your own inference code to speed things up.
+# Run all training experiments and generate plots
+python train.py
 
-## Part 3
+# Test a model interactively
+python inference.py
 
-Analysis and Synthesis Questions Answering
+# Run parts 2 and 3: AIME Evaluation
+
+# Open Jupyter notebook (requires A100/H100 GPU. Open in Google Colab if needed. Perform cell by cell execution) 
+jupyter notebook part_2_starter.ipynb
+
+
