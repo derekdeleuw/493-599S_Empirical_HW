@@ -1,26 +1,39 @@
-# CSE 493S/599S: Empirical Machine Learning Homework
-# Team Members: Krishna Deshpande, Derek De Leuw, Bhagyashree Wagh, Vaibhav Paranji, Will Gannon
+# CSE 493S/599S: Empirical Advanced Machine Learning Homework
 
-# Description: This is a README.md containing the project description and instructions on how to run this project
+## Team Members
+Krishna Deshpande, Derek De Leuw, Bhagyashree Wagh, Vaibhav Paranji, Will Gannon
 
-# Create and activate virtual environment
+## Description
+This is a README.md containing the project description and instructions on how to run parts of this project
+
+## Create and activate virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  
+```
 
-# Install required dependencies and packages
+## Install required dependencies and packages
+```bash
 pip install -r requirements.txt
+```
 
-# Run parts 0 and 1: Training a Transformer Model to learn Modular Artihmetic and Study Grokking Phenomenon
+## Running part 0 and part 1: Training a Transformer Model to learn Modular Artihmetic and Study Grokking
 
-# Run all training experiments and generate plots
+## Run all training experiments
+```bash
 python train.py
+```
 
-# Test a model interactively
+## Testing a model
+```bash
 python inference.py
+```
 
-# Run parts 2 and 3: AIME Evaluation
+## Running part 2: AIME Evaluation
 
-# Open Jupyter notebook (requires A100/H100 GPU. Open in Google Colab if needed. Perform cell by cell execution) 
-jupyter notebook part_2_starter.ipynb
+### Open notebook in Google Colab. Here are the following instructions:
+1) Open part_2_starter.ipynb file in Google Colab
+2) Select either an A100 or H100 GPU in Google Colab
+3) Run cells from top to bottom to obtain results
 
 

@@ -2,8 +2,6 @@
 torch
 numpy
 matplotlib
-jupyter
-ipykernel
 transformers
 datasets
 pandas
